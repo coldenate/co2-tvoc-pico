@@ -1,0 +1,7 @@
+
+[MASTER]
+; disable error E0401
+disable=E0401
+
+
+init-hook='import sys; sys.path.append(".")'
