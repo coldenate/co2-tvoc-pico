@@ -1,3 +1,5 @@
 src/secrets.py
 secretshhhh.py
 secrets.py
+# literally leaks my secrets
+__pycache__

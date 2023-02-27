@@ -37,11 +37,11 @@ sys.path.append("/libs")
 sys.path.append("..")
 
 # Can be 218, 217, or 240. Developer updated-hard coded value.
-ROOM_NUM = 217
-DEVICE_ID = "K"
+ROOM_NUM = 240
+DEVICE_ID = "A"
 STATIC_IP = "10.0.0.108"
 GATEWAY = "10.0.0.1"
-DEBUG_MODE = True
+DEBUG_MODE = False
 
 
 gc.enable()
@@ -156,6 +156,7 @@ def write_to_baselines():
 
 
 read_from_baselines()
+
 
 def generate_baseline(timer):
     print("writing to baseline...")
